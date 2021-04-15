@@ -1,0 +1,27 @@
+{
+    "name": "nickdekruijk/admin",
+    "description": "An easy to implement, lightweight yet complete Laravel 8+ admin panel/backend and media/filemanager using Livewire.",
+    "license": "MIT",
+    "keywords": ["cms", "laravel", "admin", "panel", "backend", "livewire"],
+    "homepage": "http://www.nickdekruijk.nl/packages/admin",
+    "authors": [{
+        "name": "Nick de Kruijk",
+        "email": "git@nickdekruijk.nl"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NickDeKruijk\\Admin\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NickDeKruijk\\Admin\\": "src/"
+        }
+    }
+}
